@@ -8,14 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Melissa Kline
+tagline: gh-pages site
 author :
-  name : Name Lastname
+  name : Melissa Kline
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : mekline
+  twitter : melissaekline
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +24,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://mekline.github.io
 
 gems: ["jekyll-sitemap"]
 
@@ -133,4 +132,9 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+
+  # ADDED BY MEKLINE
+
+  markdown: kramdown
+  theme: minima
   
