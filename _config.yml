@@ -16,6 +16,8 @@ author :
   github : mekline
   twitter : melissaekline
 
+logo: 'https://en.wikipedia.org/wiki/Gull#/media/File:Seagull_in_flight_by_Jiyang_Chen.jpg'
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -136,5 +138,5 @@ JB :
   # ADDED BY MEKLINE
 
   markdown: kramdown
-  theme: minima
+  theme: minimal
   
