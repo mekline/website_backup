@@ -8,10 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Melissa Kline
+title : Melissa Kline Struhl
 tagline: gh-pages site
 author :
-  name : Melissa Kline
+  name : Melissa Kline Struhl
   email : blah@email.test
   github : mekline
   twitter : melissaekline
@@ -28,7 +28,7 @@ logo: 'https://en.wikipedia.org/wiki/Gull#/media/File:Seagull_in_flight_by_Jiyan
 #
 production_url : http://mekline.github.io
 
-gems: ["jekyll-sitemap"]
+plugins: ["jekyll-sitemap"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -138,5 +138,5 @@ JB :
   # ADDED BY MEKLINE
 
   markdown: kramdown
-  theme: minimal
+  theme: jekyll-theme-slate
   
